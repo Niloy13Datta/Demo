@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+.nav {
+    width: 100%;
+    float: left;
+    line-height: 100px;
+}
+
+.logo {
+    width: 20%;
+    float: left;
+
+}
+
+.menu {
+    width: 60%;
+    float: left;
+
+}
+
+.button {
+    width: 20%;
+    float: left;
+    padding: 40px 0;
+
+}
+
+.logo img {}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+
+}
+
+.menu li a {
+    color: black;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.menu ul li a:hover {
+    color: #ff6162;
+    transition: 0.5s;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button button {
+    background-color: #ff6162;
+    border: none;
+    padding: 10px 10px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+
+.button button:hover {
+    color: aqua;
+    transition: 0.7s;
+}
+
+
+.banner {
+    width: 100%;
+    float: left;
+}
+
+.banner-text {
+    width: 100%;
+    float: left;
+    padding: 100px 0;
+}
+
+.left {
+    width: 50%;
+    float: left;
+    margin: 50px 0;
+
+}
+
+h1 {
+    color: gray;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+
+p {
+    color: lightcoral;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.right {
+    width: 50%;
+    float: left;
+}
